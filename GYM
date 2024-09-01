@@ -55,3 +55,124 @@
 </body>
 
 </html>
+
+
+
+
+CSS 
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(/abs-1850926_1280.jpg);
+  background-size: 3000px;
+  background-position: ;
+  color: #FFFFFF;
+  font-family: 'Agbalumo', cursive;
+}
+
+.left img {
+  width: 90px;
+  filter: invert(100%);
+  border-radius: 50px;
+
+}
+
+.left div {
+  text-align: center;
+  line-height: 17px;
+  font-size: 40px;
+}
+
+.left {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  display: inline-block;
+/*  border: 2px solid #0015FF;*/
+}
+
+.mid {
+  display: block;
+  width: 50%;
+  margin: 30px 250px;
+ /* border: 2px solid #FF0000;*/
+}
+
+.right {
+  position: absolute;
+  left: 85%;
+  top: 35px;
+  display: inline-block;
+ /* border: 2px solid #05FF00;*/
+}
+
+.btn {
+  font-family: 'Agbalumo', cursive;
+  margin: 15px 9px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 5px 10px;
+/*  border: 2px solid#8A8A8A;*/
+  border-radius: 7px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #343434;
+}
+
+navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+
+}
+
+.navbar li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: #898989;
+}
+
+.container {
+ /* border: 2px solid#FFFFFF;*/
+  margin: 100px auto;
+  padding: 75px;
+  width: 60%;
+  border-radius: 10px;
+
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 490px;
+  padding: 0px;
+  border: 2px solid#000000;
+  margin: 12px auto;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Agbalumo', cursive;
+}
+.container button{
+  display: block;
+  width: 70%;
+  margin: 30px auto;
+  font-size: 20px;
+}
+.container h1{
+  text-align: center;
+}
